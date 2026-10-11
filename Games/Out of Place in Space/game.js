@@ -459,7 +459,7 @@ window.addEventListener("DOMContentLoaded", () => {
                     startTime: null
                 });
             }
-            window.location.href = "/index.html";
+            window.location.href = "/GooseGames";
         });
     }
 
