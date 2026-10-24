@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Licker</title>
+    <link rel="stylesheet" href="lick.css">
+</head>
+<body>
+
+    <div id="fadeScreen"></div>
+        <div id="statsPanel">
+
+        <div id="statsToggle">
+            📊 Statistics
+        </div>
+
+        <div id="statsContent">
+
+            <p>
+                Lifetime Licks:
+                <span id="statLifetimeLicks">
+                    0
+                </span>
+            </p>
+
+            <p>
+                Total Clicks:
+                <span id="statTotalClicks">
+                    0
+                </span>
+            </p>
+
+            <p>
+                Golden Cones Found:
+                <span id="statGoldenCones">
+                    0
+                </span>
+            </p>
+
+            <p>
+                Great Cone Warnings:
+                <span id="statGreatConeWarnings">
+                    0
+                </span>
+            </p>
+
+            <p>
+                Highest LPC:
+                <span id="statHighestLPC">
+                    0
+                </span>
+            </p>
+
+            <p>
+                Highest LPS:
+                <span id="statHighestLPS">
+                    0
+                </span>
+            </p>
+            <p>
+                Offline Licks Earned:
+                <span id="statOfflineLicks">
+                    0
+                </span>
+            </p>
+
+
+            <p>
+                Most Owned Upgrade:
+                <span id="statMostOwnedUpgrade">
+                    None
+                </span>
+            </p>
+
+        </div>
+
+    </div>
+    <div class="game-layout">
+        <!-- Shop Panel -->
+        <div class="shop-panel">
+            <h2>Shop</h2>
+            <div id="tradeModes">
+                <button id="buyMode">Buy</button>
+                <button id="sellMode">Sell</button>
+            </div>
+            <div id="buyModes">
+                <button id="buy1">x1</button>
+                <button id="buy10">x10</button>
+                <button id="buy100">x100</button>
+                <button id="buyMax">Max</button>
+            </div>
+            <div id="clickUpgrades">
+
+                <h3 class="click-header">
+                     CLICK UPGRADES
+                </h3>
+
+                <div id="clickShop"></div>
+
+            </div>
+
+            <h3 class="passive-header">
+                 PASSIVE UPGRADES
+            </h3>
+
+            <div id="shop"></div>
+        </div>
+        <!-- Main Game Panel -->
+        <div class="game-panel">
+            <h1>Ice Cream Licker</h1>
+            <div class="stats">
+                <h2>
+                    Licks:
+                    <span id="licks">0</span>
+                </h2>
+                <p>
+                    Lifetime Licks:
+                    <span id="lifetimeLicks">0</span>
+                </p>
+                <p>
+                    Licks Per Click:
+                    <span id="lpc">1</span>
+                </p>
+                <p>
+                    Licks Per Second:
+                    <span id="lps">0</span>
+                </p>
+            </div>
+            <div id="iceCreamContainer">
+
+                <button
+                    id="iceCreamButton"
+                    class="icecream">
+
+                    <img
+                        src="Assets/icecream.png"
+                        alt="Ice Cream">
+
+                </button>
+
+            </div>
+            <button id="exportSaveBtn">Export Save</button>
+            <button id="importSaveBtn">Import Save</button>
+            <input
+                type="file"
+                id="importSaveInput"
+                accept=".json"
+                hidden>
+            <button id="resetBtn">   Hand Over the Keys </button>
+        </div>
+            <div id="achievementPanel">
+
+                <div id="achievementToggle">
+                    ACH
+                </div>
+
+                <div id="achievementContent">
+
+                    <h2>Achievements</h2>
+
+                    <div id="achievementList"></div>
+
+                </div>
+
+        </div>
+    </div>
+    <script src="../../QuackyTitle.js"></script>
+    <script src="../../Alert.js"></script>
+    <script src="lick.js"></script>
+
+</body>
+</html>

@@ -57,6 +57,13 @@ const games = [
         image: "Previews/ApexVelocityPreview.png",
         link: "Games/Apex Velocity/index.html",
         isComingSoon: false
+    },
+    {
+        title: "Ice Cream Licker",
+        description: "Become an ice cream making legend! Lick your way to the way of the ice cream!",
+        image: "Previews/IceCreamLickerPreview.png",
+        link: "Games/Ice Cream Licker/index.html",
+        isComingSoon: true
     }
     
 ];
