@@ -31,7 +31,7 @@ body {
 
     display: flex;
 
-    height: 100vh;
+    height: 100%;
 
 }
 
@@ -58,6 +58,9 @@ body {
 
     border-right:
         4px solid #d87d2a;
+    margin-top:0%;
+
+    padding-bottom: 120px;
 
 }
 
@@ -230,7 +233,7 @@ body {
     justify-content: center;
 
     text-align: center;
-
+     
 }
 
 .stats {
