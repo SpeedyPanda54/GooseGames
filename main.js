@@ -63,7 +63,7 @@ const games = [
         description: "Become an ice cream making legend! Lick your way to the way of the ice cream!",
         image: "Previews/IceCreamLickerPreview.png",
         link: "Games/Ice Cream Licker/index.html",
-        isComingSoon: true
+        isComingSoon: false
     }
     
 ];
